@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-include "classes/recipes.php";
+include "./classes/recipes.php";
 /**
  * Included Recipes
  *
@@ -27,7 +27,7 @@ include "classes/recipes.php";
  *
 */
 
-$lemon_chicken = new Recipe("Italian Lemon Chicken");
+/*$lemon_chicken = new Recipe("Italian Lemon Chicken");
 
 $lemon_chicken->addIngredient("Pasta", 500, "g");
 $lemon_chicken->addIngredient("Chicken Breast", 1, "kg");
@@ -75,7 +75,7 @@ $granola_muffins->setYield("12 large muffins.");
 $granola_muffins->addTag("breakfast, snack, quick bread");/**/
 
 
-$belgian_waffles = new Recipe("Belgian Waffles");
+/*$belgian_waffles = new Recipe("Belgian Waffles");
 
 $belgian_waffles->addIngredient("Egg", 2);
 $belgian_waffles->addIngredient("Butter", 1, "Cup");
@@ -550,4 +550,4 @@ $scones->setYield("10 scones");
 
 $scones->setSource("Beryl Patmore");
 
-$scones->addTag("breakfast");
+$scones->addTag("breakfast");*/
